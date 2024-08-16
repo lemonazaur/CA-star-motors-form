@@ -1,0 +1,146 @@
+/*
+DOCS FOLLOW HTML:
+1.BODY
+2.LOGO AND START
+3.ABOUT US
+4.SERVICES (AND IT'S COMPONENTS)
+5.RATINGS (AND IT'S COMPONENTS)
+5.STORIES (AND IT'S COMPONENTS)
+6.CONTACT US
+*/
+
+body{
+    background-color: #fff1f1;
+    color: black;
+    text-align: center;
+    font-family: "Apple Braille", serif;
+    font-size: calc(1.5vmax);
+    margin: 0;
+}
+
+.break{
+    color: #fff1f1;
+    font-size: calc(3vmin);
+    background-image: url("assets/break.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0 0 20px rgb(107, 107, 107);
+    padding: 15px 0;
+    width: 100vw;
+}
+
+.logo{
+    max-height: 50vmin;
+    width: 50vmin;
+}
+
+.start {
+    background-image: url("assets/bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.about{
+    margin: 30px 0;
+}
+
+.garagePic{
+    width: 40vw;
+    border-radius: 30px;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    margin:10px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(91, 91, 91, 0.72);
+    width: 30vw;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.box:hover{
+    padding: 20px 30px;
+    background-color: #e7e7e7;
+    transition: 0.3s;
+}
+
+
+.ratings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+
+.ratingImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.stars{
+    width: 250px;
+}
+
+.stories{
+    width: 100%;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.storyBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 40px;
+}
+
+.storyText{
+    width: 40vw;
+}
+
+.storyPic{
+    height: 40vmax;
+    border-radius: 30px;
+}
+
+.contactUs{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.contactUsInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p{
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    margin-top: 0;
+}
